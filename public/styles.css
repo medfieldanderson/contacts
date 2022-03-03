@@ -39,7 +39,7 @@ body {
 }
 
 .name {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #e7eaf6;
   display: flex;
   flex: 1;
@@ -47,12 +47,14 @@ body {
 }
 
 .card img {
-  margin: 30px 20px 0 0;
+  margin: 10px 10px 0 0;
+  opacity: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .circle-img {
   border-radius: 50%;
-  border: 7px solid #e7eaf6;
+  border: 7px solid #A2A8D3;
   width: 120px;
   height: 120px;
 }
