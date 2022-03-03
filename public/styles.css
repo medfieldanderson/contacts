@@ -1,10 +1,11 @@
+/* color palette - https://colorhunt.co/palette/e7eaf6a2a8d338598b113f67/?ref=tab */
 body {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0 auto;
   padding: 25px;
   max-width: 400px;
   min-width: 400px;
-  background-color: #dfe6e9;
+  background-color: #e7eaf6;
   text-align: center;
 }
 
@@ -19,7 +20,7 @@ body {
   border-radius: 25px;
   position: relative;
   padding: 25px 15px;
-  background-color: #81ecec;
+  background-color: #a2a8d3;
   margin: 50px 0;
   height: 200px;
   box-shadow: 0 2px 5px #ccc;
@@ -28,9 +29,9 @@ body {
 
 .top {
   border-radius: 25px 25px 0 0;
-  height: 100px;
+  height: 50%;
   width: 100%;
-  background-color: #00cec9;
+  background-color: #38598b;
   position: absolute;
   top: 0;
   left: 0;
@@ -39,7 +40,7 @@ body {
 
 .name {
   font-size: 2em;
-  color: #2d3436;
+  color: #e7eaf6;
   display: flex;
   flex: 1;
   margin: 10% 20px 0;
@@ -51,7 +52,7 @@ body {
 
 .circle-img {
   border-radius: 50%;
-  border: 7px solid #fff;
+  border: 7px solid #e7eaf6;
   width: 120px;
   height: 120px;
 }
@@ -61,6 +62,6 @@ body {
 }
 
 .info {
-  margin: 20px 0;
-  color: #1a7e76;
+  margin: 0.5em 0;
+  color: #113f67;
 }
